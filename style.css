@@ -1,0 +1,54 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.headshot_img {
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 150px;
+  margin-bottom: 40px;
+}
+
+.navbar-nav .nav-link {
+  color: whitesmoke; /* Example: #ff0000 for red */
+}
+
+.nav-link:hover {
+  color: #7cacee !important; /* your color here */
+}
+
+.dot_hr {
+  border: dotted #4a7979 8px;
+  border-bottom: None;
+  width: 30%;
+  margin: 100px auto;
+}
+
+.mySkills {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  text-align: center;
+  row-gap: 1rem;
+}
+
+.resumeTitle {
+  letter-spacing: 0.2rem;
+}
+
+.map-container {
+  display: flex; /* use flexbox */
+  justify-content: center; /* horizontal center */
+  align-items: center; /* vertical center */
+  height: 100vh; /* fill the viewport height */
+  width: 100vw; /* fill the viewport width */
+}
+#viewDiv {
+  width: 85%; /* map width */
+  height: 60%; /* map height */
+  min-width: 300px; /* optional min size */
+  min-height: 300px;
+  border: 2px solid #333; /* optional border */
+}

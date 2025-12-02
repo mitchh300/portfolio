@@ -1,26 +1,58 @@
-<!-- TODO 1: Create the HTML Boilerplate -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Mitch Holley Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mitch Holley - Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
 </head>
+
 <body>
-    <H1>Mitch Holley Portfolio</H1>
-    <H2>experienced full stack GIS developer</H2>
-    <hr/>
-    <h2><a href="./public/movie-ranking.html">Movie Ranking Project</a></h2>
-    <img src="./assets/images/movie_ranking_project.png" height="300" alt="Movie rankings project screenshot"/>
-    <h2><a href="./public/birthday-invite.html">Birthday Invite Project</a></h2>
-    <img src="./assets/images/birthday_invite_project.png" height="300" alt="Birthday invite project screenshot"/>
-    <hr/>
-    <a href="./public/about.html">About Me</a>
-    <a href="./public/contact.html">Contact Me</a>
+    <nav class="navbar mb-5 fixed-top navbar-expand bg-dark border-bottom border-body">
+        <div class="container-fluid">
+            <img class="ms-3" src="./images/new_logo_dark.png" height="50px" alt="logo" />
+            <div class="navbar-nav me-auto">
+                <a class="nav-link" href="./index.html">Home</a>
+                <a class="nav-link" href="./resume.html">Resume</a>
+                <a class="nav-link" href="./projects.html">Projects</a>
+                <a class="nav-link" href="./contact.html">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class=".headshot_img text-center bg-body-white rounded-3">
+            <img class="headshot_img" src="./images/headshot.jpg" alt="headshot image" />
+            <h1 class="text-body-emphasis">Hi, I'm Mitch.</h1>
+            <p class="col-lg-8 mx-auto fs-5 mb-4">
+                I am a geospatial professional, Python automation expert, and aspiring front-end dev.
+                I can juggle, I have two dogs and a wonderful wife, and Im passionate about growing food and helping
+                others.
+            </p>
+        </div>
+    </div>
+    <hr class="dot_hr mb-5">
+
+    <div class="container text-center py-5" style="max-width: 700px;">
+        <h2>My Skills</h2>
+        <div class="mySkills">
+            <div>
+                <img src="./images/globe.webp" alt="globe gif" height="150px" class="ps-4">
+            </div>
+            <div>
+                <p class="fs-5 text-muted mb-0">I have been in the GIS industry for roughly 11
+                    years. I
+                    studied
+                    GIS
+                    in college at the University of North Georgia. I would consider myself a GIS expert and have
+                    recently
+                    obtained the Geographic Information Systems Professional certification.
+                    I am an amateur woodworker🪚, an avid crocheter🧶, and a fairly decent cook!👨🏻‍🍳
+                </p>
+            </div>
+        </div>
 </body>
+
 </html>
-
-<!-- TODO 6: Add images to show the project previews
-HINT for TODO 6: You can use the height attribute set to 200 to make the image smaller:
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
-
-<!-- TODO 7: Add the Contact Me and About Me page links -->
